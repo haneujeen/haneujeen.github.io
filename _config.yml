@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "test"
 description              : "An amazing website."
 url                      : "https://haneujeen.github.io"
 baseurl                  : ""

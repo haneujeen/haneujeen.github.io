@@ -9,17 +9,17 @@ __TF-IDF__ stands for __Term Frequency-Inverse Document Frequency
 - How important a word is to a document in a collection or corpus
 
 The measure is a combination of two components:
-__Term Frequency (TF)
+__Term Frequency (TF)__
 - A measure of how frequently a term appears in a document
-__Inverse Document Frequency (IDF)
+__Inverse Document Frequency (IDF)__
 - A measures how important a term is
 - Certain terms may appear a lot of times but have little importance
 - Thus, we need to weigh down the frequent terms while scaling up the rare ones
 
-__Caculating TF-IDF score
+__Caculating TF-IDF score__
 - Multiply the term's TF score by its IDF score
 - `TF-IDF = TF * IDF`
 
-__Document Frequency (DF)
+__Document Frequency (DF)__
 - The count of documents in the corpus that contain the term (t)
 - The Inverse Document Frequency (idf) is then calculated as the logarithm of the total number of documents in the corpus divided by the Document Frequency
